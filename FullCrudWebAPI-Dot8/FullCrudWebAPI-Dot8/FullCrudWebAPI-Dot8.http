@@ -1,0 +1,6 @@
+@FullCrudWebAPI_Dot8_HostAddress = http://localhost:5142
+
+GET {{FullCrudWebAPI_Dot8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
