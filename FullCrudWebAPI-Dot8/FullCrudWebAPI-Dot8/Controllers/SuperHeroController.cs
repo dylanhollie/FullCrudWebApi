@@ -9,7 +9,7 @@ namespace FullCrudWebAPI_Dot8.Controllers
     public class SuperHeroController : ControllerBase
     {
         [HttpGet]
-        public async Task<IActionResult> GetAllHeros()
+        public async Task<ActionResult<List<SuperHero>>> GetAllHeros()
         {
             var heroes = new List<SuperHero>
             {
